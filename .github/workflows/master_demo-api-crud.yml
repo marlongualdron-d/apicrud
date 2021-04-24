@@ -50,4 +50,4 @@ jobs:
         app-name: 'demo-api-crud'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_7e96b51e14b9482fae99b61120c60409 }}
-        package: '*.jar'
+        package: '*.war'
